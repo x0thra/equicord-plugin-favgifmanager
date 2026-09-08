@@ -37,7 +37,7 @@ const isSafeUrl = (link?: unknown): boolean => {
         const allowedDomains = [
             ".discordapp.com", ".discordapp.net", ".discord.com", ".discord.gg", ".discord.media",
             ".tenor.com", ".tenor.co", ".giphy.com", ".klipy.com", ".klipy.co",
-            ".imgur.com", ".gfycat.com", ".redgifs.com", ".gyazo.com",
+            ".imgur.com", ".gfycat.com", ".gyazo.com",
             ".twimg.com", ".twitter.com", ".x.com",
             ".tiktok.com", ".tiktokcdn.com",
             ".reddit.com", ".redditmedia.com", ".redd.it",
@@ -48,7 +48,7 @@ const isSafeUrl = (link?: unknown): boolean => {
         const exactMatches = [
             "discordapp.com", "discordapp.net", "discord.com", "discord.gg", "discord.media",
             "tenor.com", "tenor.co", "giphy.com", "klipy.com", "klipy.co",
-            "imgur.com", "gfycat.com", "redgifs.com", "gyazo.com",
+            "imgur.com", "gfycat.com", "gyazo.com",
             "twimg.com", "twitter.com", "x.com",
             "tiktok.com", "tiktokcdn.com",
             "reddit.com", "redditmedia.com", "redd.it",
